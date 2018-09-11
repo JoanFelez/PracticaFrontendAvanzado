@@ -1,0 +1,125 @@
+{
+    "article-list":
+    [
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        },
+        {
+            "title":"Article Title",
+            "image":"Image or Video source",
+            "description":"Article Description",
+            "author":{
+                "name":"Author Name",
+                "photo":"Author Photo",
+                "desc":"Author Description"
+            },
+            "published":"Published Time",
+            "comments":"Comment count"
+        }
+    ]
+}
