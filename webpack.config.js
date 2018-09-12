@@ -27,7 +27,7 @@ var commonConfig = {
     home: ['babel-polyfill', path.join(__dirname, 'src', 'pages', 'home', 'index')]
   },
   output: {
-    filename: '[name][hash].js',
+    filename: '[name]_[hash].js',
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
@@ -35,7 +35,7 @@ var commonConfig = {
     page({
       title: 'Home',
       template: path.join(__dirname, 'src', 'pages', 'home', 'index.html'),
-      chunks: ['songs'],
+      chunks: ['home'],
       filename: path.resolve(__dirname, 'dist', 'index.html')
     })
   ],
@@ -66,12 +66,12 @@ var commonConfig = {
   },
   resolve: {
     alias: {
-      components: path.resolve(__dirname, 'src', 'components'),
-      assets: path.resolve(__dirname, 'src', 'assets'),
-      styles: path.resolve(__dirname, 'src', 'styles'),
-      utils: path.resolve(__dirname, 'src', 'utils'),
-      data: path.resolve(__dirname, 'src', 'data'),
-      services: path.resolve(__dirname, 'src', 'services')
+      components: path.resolve(__dirname, 'src/components/'),
+      assets: path.resolve(__dirname, 'src/assets/'),
+      styles: path.resolve(__dirname, 'src/styles/'),
+      utils: path.resolve(__dirname, 'src/utils/'),
+      data: path.resolve(__dirname, 'src/data/'),
+      services: path.resolve(__dirname, 'src/services/')
     }
   },
   devtool: 'source-map'

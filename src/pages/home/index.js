@@ -1,3 +1,8 @@
-import {addArticles} from 'components/article/article-component';
+import {addArticles} from '../../components/article/article-component.js';
+import {menuButton} from '../../components/header/header.js';
+import '../../styles/main.scss';
 
-addArticles();
+window.onload = function() {
+    menuButton();
+};
+

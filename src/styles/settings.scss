@@ -1,0 +1,41 @@
+@import 'utils';
+
+
+$white: #fff;
+$palegray: #DDD5D0;
+$blue: #5C5D8D;
+$palesilver: #CFC0BD;
+$ashgrey: #B8B8AA;
+$red: red;
+
+$primary-color: $blue;
+$secondary-color: $palegray;
+$link-color: $palesilver;
+$border-color: $ashgrey;
+$error: $red;
+
+$box-shadow-default: 1px -5px 5px -5px $palegray;
+
+$font-family: Helvetica, Sans-serif;
+
+$font-size-xxxl: 36;
+$font-size-xxl: 24;
+$font-size-xl: 20;
+$font-size-l: 16;
+$font-size: 14;
+$font-size-xs: 10;
+$font-size-xxs: 8;
+
+$gutter-padding: 30px;
+
+$font-family: 'PT Serif', serif;
+$font-family-main: 'Poppins', sans-serif;
+
+
+// Breakpoints
+
+$breakpoint-tablet-portrait: 600px;
+$breakpoint-tablet-landscape: 900px;
+$breakpoint-desktop: 1200px;
+
+$footer-height: 58px;
