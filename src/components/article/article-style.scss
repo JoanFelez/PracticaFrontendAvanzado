@@ -2,7 +2,7 @@
 @import '~styles/layout.scss';
 
 .article-container {
-       margin-top: 100px;
+       margin: 100px 20px 0px 20px;
 }
 
 .article-info {
@@ -69,14 +69,26 @@ a {
     padding: 10px 0;
     align-items: center;
     height: 5px;
+    width: 200px;
 }
 
 .publish-time {
-    width: 50%;
+    width: 55%;
     max-width: 100%;
 }
 
 .comment-count {
-    width: 50%;
+    width: 20%;
     max-width: 100%;
+
 }
+
+.comment-icon {
+    width: 20%;
+    max-width: 100%;
+    text-align: center;
+}
+
+  @include for-tablet-landscape {
+
+  }

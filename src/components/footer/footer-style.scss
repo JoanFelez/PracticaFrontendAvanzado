@@ -4,15 +4,16 @@
 footer {
     display: flex;
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
-
     a {
         color: $text-color;
     }
 }
 
 .icon-container {
-    width: 50%;
+    width: 45%;
     display: flex;
     align-content: center;
 }
@@ -28,7 +29,7 @@ footer {
 }
 
 .link-container {
-    width: 50%;
+    width: 55%;
     display: flex;
 }
 
@@ -51,3 +52,15 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+@include for-tablet-portrait {
+    footer {
+        width: 80%;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @include for-tablet-landscape {
+  }

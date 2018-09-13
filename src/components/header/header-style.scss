@@ -9,11 +9,20 @@ header{
     box-sizing: content-box;
     width: 100%;
     height: 100px;
+    display: flex;
+    flex-wrap: wrap;
 
     .title-container{
         color: $white;
-        width: 100%;
-        padding-left: 20px;
+        width: 65%;
+        padding-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .title {
+          width: 100%;
+          box-sizing: border-box;
+        }
     }
 
     .menu {
@@ -22,21 +31,22 @@ header{
         flex-direction: column;
         align-items: center;
         background-color: $blue;
-        position: relative;
-        top:10%;
-        left: 50%;
+        position: absolute;
+        top:100px;
         width: 200px;
         height: 300px;
         transform-origin: 0% 0%;
-        transform: translate(150%, 0);
+        transform: translate(100%, 0);
         transition: transform 0.75s cubic-bezier(0.77,0.2,0.05,1.0);
+        right:0;
     }
 
     .menu_active {
-        position: relative;
+        position: absolute;
         transform-origin: 0% 0%;
         transform: translate(0%, 0);
         transition: transform 0.75s cubic-bezier(0.77,0.2,0.05,1.0);
+        float: right;
     }
 
     div#menu a{
@@ -47,11 +57,13 @@ header{
     }
 
     .menu-btn-container {
-        width: 50px;
+        width: 20%;
         height: 50px;
+        position: relative;
         top: 20%;
-        right: 10%;;
-        position: absolute;
+        float: right;
+        padding-right: 30px;
+        box-sizing: border-box;
     }
 
     .menu-btn {
@@ -61,7 +73,7 @@ header{
         background-color: #fff;
         border-radius: 50%;
         position: relative;
-
+        float: right;
       }
 
       .menu-btn span,
@@ -102,5 +114,13 @@ header{
 
       .menu-btn_active span:after {
         transform: rotate(-45deg);
+      }
+
+      @include for-tablet-portrait {
+        padding-right: 0;
+      }
+
+      @include for-tablet-landscape {
+        background-color: $red;
       }
 }
