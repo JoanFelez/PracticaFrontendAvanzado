@@ -28,15 +28,15 @@ header{
         width: 200px;
         height: 300px;
         transform-origin: 0% 0%;
-        transform: translate(100%, 0);
-        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+        transform: translate(150%, 0);
+        transition: transform 0.75s cubic-bezier(0.77,0.2,0.05,1.0);
     }
 
     .menu_active {
         position: relative;
         transform-origin: 0% 0%;
         transform: translate(0%, 0);
-        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+        transition: transform 0.75s cubic-bezier(0.77,0.2,0.05,1.0);
     }
 
     div#menu a{

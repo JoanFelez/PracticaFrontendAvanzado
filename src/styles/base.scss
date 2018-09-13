@@ -2,10 +2,6 @@
 @import '~styles/utils';
 @import '~styles/settings';
 
-body {
-  padding-bottom: $footer-height + 60px;
-}
-
 h1 {
   @include fontSize($font-size-xxxl);
   font-family: $font-family-main;

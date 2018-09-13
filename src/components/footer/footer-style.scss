@@ -1,3 +1,53 @@
 @import '~styles/settings.scss';
 @import '~styles/layout.scss';
 
+footer {
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+    a {
+        color: $text-color;
+    }
+}
+
+.icon-container {
+    width: 50%;
+    display: flex;
+    align-content: center;
+}
+
+#facebook-icon {
+    width: 50%;
+    text-align: center;
+}
+
+#twitter-icon {
+    width: 50%;
+    text-align: center;
+}
+
+.link-container {
+    width: 50%;
+    display: flex;
+}
+
+#terms {
+    width: 60%;
+    text-align: center;
+}
+
+#contact {
+    width: 40%;
+    text-align: center;
+}
+
+.copyright-container {
+    width: 100%;
+}
+
+.copyright {
+    font-size: $font-size-xxs px;
+    text-align: center;
+    width: 100%;
+}
