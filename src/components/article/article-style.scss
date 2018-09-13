@@ -1,0 +1,82 @@
+@import '~styles/settings.scss';
+@import '~styles/layout.scss';
+
+.article-container {
+       margin-top: 100px;
+}
+
+.article-info {
+    width: 75%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    .article-link {
+        color: $text-color;
+    }
+}
+
+.article-list {
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-description {
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.image-container {
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    top: 20%;
+    z-index: 0;
+}
+
+.author-image {
+    display: none;
+}
+
+.author-desc {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.author-info {
+    padding: 10px 0;
+    .author-name {
+        font-weight: bold;
+        color: $text-color;
+    }
+}
+
+.time-comments {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    align-items: center;
+    height: 5px;
+}
+
+.publish-time {
+    width: 50%;
+    max-width: 100%;
+}
+
+.comment-count {
+    width: 50%;
+    max-width: 100%;
+}

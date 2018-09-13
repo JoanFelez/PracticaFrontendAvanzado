@@ -17,31 +17,40 @@ header{
     }
 
     .menu {
-        display: none;
-    }
-
-    .menu_active {
+        transform: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: $white;
+        background-color: $blue;
         position: relative;
-        left: 70%;
-        width: 120px;
+        top:10%;
+        left: 50%;
+        width: 200px;
+        height: 300px;
+        transform-origin: 0% 0%;
+        transform: translate(100%, 0);
+        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
 
-        a{
-            padding-bottom: 10px;
-            background-color:$blue;
-            width: 100px;
-            color: $white;
-        }
+    .menu_active {
+        position: relative;
+        transform-origin: 0% 0%;
+        transform: translate(0%, 0);
+        transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    div#menu a{
+        padding: 20px;
+        background-color:$blue;
+        width: 100px;
+        color: $white;
     }
 
     .menu-btn-container {
         width: 50px;
         height: 50px;
-        top: 15%;
-        right: 15%;;
+        top: 20%;
+        right: 10%;;
         position: absolute;
     }
 
@@ -52,6 +61,7 @@ header{
         background-color: #fff;
         border-radius: 50%;
         position: relative;
+
       }
 
       .menu-btn span,

@@ -1,6 +1,4 @@
 @import 'base';
 @import '~components/header/header-style.scss';
-
-a {
-    text-decoration: none;
-}
+@import '~components/article/article-style.scss';
+@import '~components/footer/footer-style.scss';
