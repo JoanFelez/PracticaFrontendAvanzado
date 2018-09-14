@@ -7,6 +7,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
+    background-color: $palesilver;
     a {
         color: $text-color;
     }
@@ -14,8 +15,10 @@ footer {
 
 .icon-container {
     width: 45%;
+    height: 50%;
     display: flex;
     align-content: center;
+    background-color: lightgreen;
 }
 
 #facebook-icon {
@@ -45,6 +48,8 @@ footer {
 
 .copyright-container {
     width: 100%;
+    height: 50%;
+    background-color: lightcoral;
 }
 
 .copyright {
@@ -55,12 +60,30 @@ footer {
 
 @include for-tablet-portrait {
     footer {
-        width: 80%;
+        width: 100%;
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
+
     }
   }
 
-  @include for-tablet-landscape {
+  @include for-desktop {
+      footer {
+        width: 100%;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+
+      .icon-container {
+          width: 33%;
+      }
+
+      .link-container {
+          width: 33%;
+      }
+
+      .copyright-container {
+          width: 33%;
+      }
   }

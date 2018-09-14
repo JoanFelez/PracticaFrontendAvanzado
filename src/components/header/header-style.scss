@@ -121,6 +121,26 @@ header{
       }
 
       @include for-tablet-landscape {
-        background-color: $red;
+
+        .menu-btn-container{
+          display: none;
+        }
+
+        .menu {
+          flex-direction: row;
+          width: 100%;
+          height: 60px;
+          transform: none;
+        }
+
+        div#menu a{
+          width: 100px;
+          color: $white;
+        }
+
+      }
+
+      @include for-desktop {
+        background-color: lightgreen;
       }
 }
