@@ -2,8 +2,8 @@
     "article_list":
     [
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Motorsport Article",
+            "image":"../assets/motorsport-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -14,8 +14,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Gaming Article",
+            "image":"../assets/gaminng-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -26,8 +26,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Life Article",
+            "image":"../assets/life-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -38,8 +38,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Cooking Article",
+            "image":"../assets/cooking-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -50,8 +50,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Football Article",
+            "image":"../assets/football.jpg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -62,8 +62,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Running Article",
+            "image":"../assets/running-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -74,8 +74,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Job Article",
+            "image":"../assets/job-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -86,8 +86,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Political Article",
+            "image":"../assets/political-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -98,8 +98,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Agriculture Article",
+            "image":"../assets/agriculture-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
@@ -110,8 +110,8 @@
             "comments":"Comment count"
         },
         {
-            "title":"Article Title",
-            "image":"Image or Video source",
+            "title":"Engineering Article",
+            "image":"../assets/engineering-small.jpeg",
             "description":"Article Description",
             "author":{
                 "name":"Author Name",
