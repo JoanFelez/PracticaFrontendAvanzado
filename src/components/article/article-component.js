@@ -1,30 +1,27 @@
-import {ArticleService} from '../../services/article-service.js';
-import {appendComponent} from '../../utils/utils.js';
-import article_list from '../../data/article_list.json';
-import ejs from '../../utils/ejs';
 
-export const addArticles = () =>{
-    const articleContainer = document.getElementById('article-container');
-    const articleList = document.createElement('div');
-    //const template = ejs.render('<%- include("./src/pages/templates/article-list") %>');
-    articleList.classList.add('article-list');
-
-    //articleList.innerHTML = template;
-    /* const addArticlesInstance = new ArticleService();
-    console.log(addArticlesInstance);
-    addArticlesInstance.getArticles().then((articlesJson) => {
-        if (articlesJson.length === 0) {
-            articleContainer.innerHTML = 'No articles';
-        } else {
-            articleContainer.innerHTML = `<p>Probrando</p>`;
-            /*appendComponent(songs,
-                articlesJson.map((songData) => articleContainer.innerHTML = ''));
-        }
-    }).catch(() => {
-        articleContainer.innerHTML = 'There was an error, please reload';
-    });
-    return songs;*/
-    //articleContainer.appendChild(articleList);
+export const newArticle = ({title, artDescription, imageUrl, author, published, comments} =
+{title: 'No title', published: 'No date', comments: '0',
+    author: {name: 'No author', photo: 'No photo', desc: 'No author desciption'}}) =>{
+    const article = document.createElement('div');
+    articleList.classList.add('article-container');
+    articleList.innerHTML = `
+        <div class="article-info">
+            <a class="article-link" href="./"><h3>${title}</h3></a>
+            <p class="article-description">${artDescription}</p>
+            <div class="author-info">
+                <a class="author-name" href="#">${author.name}</a>
+                <div class="author-image"><img src="${author.photo}" alt="Autor Photo">Author Photo</div>
+                <p class="author-desc">${author.desc}</p>
+            </div>
+            <div class="time-comments">
+                <time class="publish-time">${published}</time>
+                <i class="far fa-comment-alt comment-icon"></i>
+                <p class="comment-count">${comments}</p>
+            </div>
+        </div>
+        <div class="image-container"><img src="${imageUrl}" alt="Image or Video"></div>
+        `;
+    return article;
 };
 
-export default addArticles;
+export default newArticle;
