@@ -1,4 +1,4 @@
-import {APIService} from './API-service';
+import APIService from 'services/API-service';
 
 class ArticleService {
     constructor() {

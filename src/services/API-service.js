@@ -1,6 +1,6 @@
 class APIService {
     constructor() {
-        this.baseUrl = 'localhost:8000';
+        this.baseUrl = 'http://localhost:8000/';
     }
 
     async get(uri) {
@@ -17,6 +17,4 @@ class APIService {
     }
 }
 
-export default {
-    APIService,
-};
+export default APIService;
