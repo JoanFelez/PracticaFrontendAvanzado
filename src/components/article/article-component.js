@@ -1,13 +1,13 @@
 
-export const newArticle = ({title, artDescription, imageUrl, author, published, comments} =
+export const newArticle = ({title, image, description, author, published, comments} =
 {title: 'No title', published: 'No date', comments: '0',
     author: {name: 'No author', photo: 'No photo', desc: 'No author desciption'}}) =>{
     const article = document.createElement('div');
-    articleList.classList.add('article-container');
-    articleList.innerHTML = `
+    article.classList.add('article-container');
+    article.innerHTML = `
         <div class="article-info">
             <a class="article-link" href="./"><h3>${title}</h3></a>
-            <p class="article-description">${artDescription}</p>
+            <p class="article-description">${description}</p>
             <div class="author-info">
                 <a class="author-name" href="#">${author.name}</a>
                 <div class="author-image"><img src="${author.photo}" alt="Autor Photo">Author Photo</div>
@@ -19,7 +19,7 @@ export const newArticle = ({title, artDescription, imageUrl, author, published, 
                 <p class="comment-count">${comments}</p>
             </div>
         </div>
-        <div class="image-container"><img src="${imageUrl}" alt="Image or Video"></div>
+        <div class="image-container"><img src="${image}" alt="Image or Video"></div>
         `;
     return article;
 };
