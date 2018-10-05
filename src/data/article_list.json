@@ -2,124 +2,124 @@
     "article_list":
     [
         {
-            "title":"Motorsport Article",
-            "image":"../assets/motorsport-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Motorsport Article",
+            "image": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Gaming Article",
-            "image":"../assets/gaminng-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Gaming Article",
+            "image": "https://images.pexels.com/photos/929831/pexels-photo-929831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Life Article",
-            "image":"../assets/life-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Life Article",
+            "image": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Cooking Article",
-            "image":"../assets/cooking-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Cooking Article",
+            "image": "https://images.pexels.com/photos/1070880/pexels-photo-1070880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Football Article",
-            "image":"../assets/football.jpg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Football Article",
+            "image": "https://images.pexels.com/photos/270085/pexels-photo-270085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Running Article",
-            "image":"../assets/running-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Running Article",
+            "image": "https://images.pexels.com/photos/347134/pexels-photo-347134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Job Article",
-            "image":"../assets/job-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Job Article",
+            "image": "https://images.pexels.com/photos/886465/pexels-photo-886465.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Political Article",
-            "image":"../assets/political-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Political Article",
+            "image": "https://images.pexels.com/photos/4666/berlin-eu-european-union-federal-chancellery.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Agriculture Article",
-            "image":"../assets/agriculture-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Agriculture Article",
+            "image": "https://images.pexels.com/photos/175389/pexels-photo-175389.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         },
         {
-            "title":"Engineering Article",
-            "image":"../assets/engineering-small.jpeg",
-            "description":"Article Description",
-            "author":{
-                "name":"Author Name",
-                "photo":"Author Photo",
-                "desc":"Author Description"
+            "title": "Engineering Article",
+            "image": "https://images.pexels.com/photos/414579/pexels-photo-414579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "author": {
+                "name": "Author Name",
+                "photo": "https://image.shutterstock.com/image-photo/august-05-2018-elkhart-lake-450w-1152406058.jpg",
+                "desc": "Author Description"
             },
-            "published":"Published Time",
-            "comments":"Comment count"
+            "published": "Published Time",
+            "comments": "Comment count"
         }
     ]
 }
