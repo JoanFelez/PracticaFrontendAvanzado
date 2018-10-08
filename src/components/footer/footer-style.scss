@@ -8,9 +8,12 @@ footer {
     margin-right: auto;
     flex-wrap: wrap;
     padding-top: 15px;
-    background-color: $palesilver;
+    background-color: $primary-color;
+    color: $white;
+    position: fixed;
+    bottom: 0;
     a {
-        color: $text-color;
+        color: $white;
     }
 }
 

@@ -1,11 +1,16 @@
 @import '~styles/settings.scss';
 @import '~styles/layout.scss';
 
+body {
+    background-color: $secondary-color;
+}
+
 .article-container {
     padding: 15px 0px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    background-color: $white;
 }
 
 .article-info {
@@ -18,7 +23,8 @@
 }
 
 .article-list {
-    margin: 170px 20px 0px 20px;
+    margin: 170px 20px 0 0;
+    padding-bottom: 60px;
 }
 
 .article-description {
@@ -34,14 +40,12 @@
     box-sizing: border-box;
     align-items: center;
     position: relative;
-    z-index: -1;
+    z-index: 0;
+    margin: auto;
 }
 
 img {
     max-width: 100%;
-    position: relative;
-    top: 20%;
-    z-index: 0;
 }
 
 .author-image {
