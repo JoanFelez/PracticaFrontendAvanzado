@@ -5,7 +5,6 @@ var merge = require('webpack-merge');
 var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 var CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
-var webpack = require('webpack');
 const Dotenv = require('dotenv-webpack');
 
 var page = function({ title, template, chunks, filename }) {
@@ -25,7 +24,7 @@ var page = function({ title, template, chunks, filename }) {
 var commonConfig = {
   entry: {
     home: ['babel-polyfill', path.join(__dirname, 'src', 'pages', 'home', 'index')],
-    article: ['babel-polyfill', path.join(__dirname, 'src', 'pages', 'article', 'index.html')]
+    article: ['babel-polyfill', path.join(__dirname, 'src', 'pages', 'article', 'index')]
   },
   output: {
     filename: '[name]_[hash].js',

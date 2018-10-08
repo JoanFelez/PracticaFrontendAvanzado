@@ -1,0 +1,122 @@
+@import '~styles/settings.scss';
+@import '~styles/layout.scss';
+
+.article-container {
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.article-info {
+    width: 75%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    .article-link {
+        color: $text-color;
+    }
+}
+
+.article-list {
+    margin: 150px 20px 0px 20px;
+}
+
+.article-description {
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.image-container {
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    top: 20%;
+    z-index: 0;
+}
+
+.author-image {
+    display: none;
+}
+
+.author-desc {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.author-info {
+    padding: 10px 0;
+    .author-name {
+        font-weight: bold;
+        color: $text-color;
+    }
+}
+
+.time-comments {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    align-items: center;
+    height: 5px;
+    width: 200px;
+}
+
+.publish-time {
+    width: 55%;
+    max-width: 100%;
+}
+
+.comment-count {
+    width: 20%;
+    max-width: 100%;
+
+}
+
+.comment-icon {
+    width: 20%;
+    max-width: 100%;
+    text-align: center;
+}
+
+@include for-tablet-portrait {
+    .time-comments {
+        height: 10px;
+        width: 500px;
+    }
+
+    .publish-time {
+        width: 45%;
+        max-width: 100%;
+    }
+
+    .comment-count {
+        width: 45%;
+        max-width: 100%;
+
+    }
+
+    .comment-icon {
+        width: 10%;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@include for-tablet-landscape {
+    .article-list {
+        margin: 200px 20px 0px 20px;
+    }
+
+  }

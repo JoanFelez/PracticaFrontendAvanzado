@@ -41,6 +41,7 @@
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.2",
     "dotenv-webpack": "^1.5.7",
+    "query-string": "^6.2.0",
     "webpack-plugin-critical": "^1.0.0"
   }
 }

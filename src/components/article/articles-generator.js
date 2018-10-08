@@ -32,4 +32,13 @@ export const generateArticles = () =>{
     return articlesContainer;
 };
 
+export const printArticle = (article) =>{
+    const articleContainer = document.getElementById('article');
+
+    articleContainer.innerHTML = '';
+    loadArticles([article], articleContainer);
+
+    return articleContainer;
+};
+
 export default generateArticles;
