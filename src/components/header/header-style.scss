@@ -3,7 +3,7 @@
 
 header{
 
-    background-color: $blue;
+    background-image: -webkit-linear-gradient(-50deg, $primary-color 65%, darkblue 65%);
     position: fixed;
     top: 0%;
     box-sizing: content-box;
@@ -137,6 +137,7 @@ header{
           transform: none;
           justify-content: flex-end;
           background-image: -webkit-linear-gradient(-75deg, $primary-color 20%, $white 20%);
+          border-bottom: $primary-color 2px solid;
         }
 
         div#menu a{
@@ -150,6 +151,5 @@ header{
       }
 
       @include for-desktop {
-        background-color: lightgreen;
       }
 }

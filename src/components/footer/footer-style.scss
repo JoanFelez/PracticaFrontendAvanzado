@@ -10,8 +10,8 @@ footer {
     padding-top: 15px;
     background-color: $primary-color;
     color: $white;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 80;
     a {
         color: $white;
     }
