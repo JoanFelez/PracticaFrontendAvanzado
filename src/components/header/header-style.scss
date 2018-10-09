@@ -1,7 +1,8 @@
 @import '~styles/settings.scss';
 @import '~styles/layout.scss';
+@import '~components/header/login-style.scss';
 
-header{
+.header{
 
     background-image: -webkit-linear-gradient(-50deg, $primary-color 65%, darkblue 65%);
     position: fixed;
@@ -39,11 +40,12 @@ header{
         position: absolute;
         top:120px;
         width: 200px;
-        height: 300px;
+        height: 350px;
         transform-origin: 0% 0%;
         transform: translate(100%, 0);
         transition: transform 0.75s cubic-bezier(0.77,0.2,0.05,1.0);
         right:0;
+        box-sizing: content-box;
     }
 
     .menu_active {
@@ -54,11 +56,17 @@ header{
         float: right;
     }
 
-    div#menu a{
+    div#menu a, button{
         padding: 20px;
         background-color:$blue;
         width: 100px;
         color: $white;
+        box-sizing: content-box;
+        text-align: center;
+    }
+
+    .login-button {
+      border: none;
     }
 
     .menu-btn-container {
@@ -145,7 +153,15 @@ header{
           height: 20px;
           color: $primary-color;
           background-color: $white;
+        }
 
+        .login-button {
+          background: none;
+          border: none;
+          padding: 0;
+          cursor: pointer;
+          outline: inherit;
+          color: $primary-color;
         }
 
       }
