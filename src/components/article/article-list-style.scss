@@ -2,16 +2,7 @@
 @import '~styles/layout.scss';
 
 body {
-    background-color: $secondary-color;
-}
-
-.article-list-title {
-    color: $primary-color;
-    text-align: center;
     background-color: $white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: $font-size-xxl;
 }
 
 .article-container {
@@ -20,6 +11,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: 50px;
     background-color: $white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 
 .article-info {
@@ -69,12 +61,22 @@ a {
     text-decoration: none;
 }
 
+.author-name {
+    font-weight: bold;
+    color: $text-color;
+}
+
+.author-info {
+    background-color: lightblue;
+}
+
+.author-name:hover .author-image {
+        display: block;
+        color: red;
+}
+
 .author-info {
     padding: 10px 0;
-    .author-name {
-        font-weight: bold;
-        color: $text-color;
-    }
 }
 
 .time-comments {
@@ -131,7 +133,7 @@ a {
     position: fixed;
     display: none;
     left: 90%;
-    top: 90%;
+    top: 80%;
     border: 1px $primary-color solid;
     margin: 0;
     background-color: $white;
