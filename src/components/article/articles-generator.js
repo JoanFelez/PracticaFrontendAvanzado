@@ -23,7 +23,6 @@ export const generateArticles = () =>{
     const articlesContainer = document.getElementById('article-list');
 
     articleService.getArticles().then((articlesList) => {
-        articlesContainer.innerHTML = '';
         loadArticles(articlesList, articlesContainer);
     }).catch(() => {
         articlesContainer.innerHTML = 'There was an error, please reload';
