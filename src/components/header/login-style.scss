@@ -11,13 +11,14 @@
 }
 
 .login-form.inactive {
-    display: none;
+    transform: translateY(-1100px);
 }
 
 .login-form {
   display: flex;
   position: absolute;
-  top:120px;
+  transition:transform 2s ease;
+  transform: translateY(-50px);
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +31,7 @@
 
 @include for-tablet-landscape {
     .login-form {
-        top: 180px;
+      transform: translateY(-40px);
     }
 }
 

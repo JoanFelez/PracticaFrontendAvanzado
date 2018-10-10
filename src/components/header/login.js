@@ -11,8 +11,8 @@ export const loginMenu = () => {
 
     document.addEventListener('click', function(evt) {
         evt.preventDefault();
-        console.log(evt.toElement.className);
-        if (evt.target.id != 'login-form' && evt.target.id != 'login-button') {
+        const formElements = ['login-form', 'login-button', 'state-button', 'form-link', 'pass-icon', 'pass-input', 'user-icon', 'user-input', 'form-title', 'login-header', 'state-span', 'state-spinner'];
+        if (formElements.includes(evt.target.id) == false) {
             loginContainer.classList.add('inactive');
         }
     });
