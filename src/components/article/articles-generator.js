@@ -1,6 +1,6 @@
 import {newArticle} from 'components/article/article-component';
 import ArticleService from 'services/article-service';
-import {appendComponent} from 'utils/utils';
+import {appendComponent, goingTop} from 'utils/utils';
 
 
 const loadArticles = (articlesList, articles) => {
@@ -40,4 +40,21 @@ export const printArticle = (article) =>{
     return articleContainer;
 };
 
-export default generateArticles;
+export const scrollControl = () => {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById('top-button').style.display = 'block';
+    } else {
+        document.getElementById('top-button').style.display = 'none';
+    }
+};
+
+export const topButton = () => {
+    document.getElementById('top-button').addEventListener('click', function(evt) {
+        evt.preventDefault();
+        goingTop();
+    });
+};
+
+export default {
+    generateArticles, scrollControl, topButton,
+};

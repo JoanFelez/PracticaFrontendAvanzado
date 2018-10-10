@@ -127,9 +127,51 @@ a {
     }
 }
 
+.top-button {
+    position: fixed;
+    display: none;
+    left: 90%;
+    top: 90%;
+    border: 1px $primary-color solid;
+    margin: 0;
+    background-color: $white;
+    opacity: 1;
+    text-decoration: none;
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.fa-arrow-alt-circle-up {
+    text-align: center;
+    color: $primary-color;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: $font-size-xxl;
+}
+
 @include for-tablet-landscape {
     .article-list {
         margin: 220px 20px 0px 20px;
     }
+}
 
-  }
+@include for-desktop {
+    .top-button {
+        opacity: 0.25;
+    }
+
+    .top-button:hover {
+        opacity: 1;
+        background-color: $primary-color;
+        &>i{
+            color: $white;
+        }
+    }
+}
