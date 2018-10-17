@@ -11,14 +11,14 @@ export const goingTop = () => {
     window.scrollBy({top: -window.innerHeight, left: 0, behavior: 'smooth'}); ; // For Chrome, Firefox, IE and Opera
 };
 
-const isLiked = (id) => localStorage.getItem(`song-${id}`);
+export const isLiked = (id) => localStorage.getItem(`article-${id}`);
 
 const toggleLike = (id) => {
     const likeValue = isLiked(id) === 'true' ? 'false' : 'true';
-    localStorage.setItem(`song-${id}`, likeValue);
+    localStorage.setItem(`article-${id}`, likeValue);
 };
 
-const setInitialLikeValue = (likeButton, liked) => {
+export const setInitialLikeValue = (likeButton, liked) => {
     if (liked === 'true') likeButton.children[0].classList.add('fas');
 };
 
@@ -34,5 +34,5 @@ export const likeFunction = (articleId) => {
 };
 
 export default {
-    appendComponent, goingTop, likeFunction,
+    appendComponent, goingTop, likeFunction, isLiked, setInitialLikeValue,
 };

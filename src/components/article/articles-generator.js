@@ -1,6 +1,6 @@
 import {newArticle} from 'components/article/article-component';
 import ArticleService from 'services/article-service';
-import {appendComponent, goingTop} from 'utils/utils';
+import {appendComponent, goingTop, setInitialLikeValue, isLiked} from 'utils/utils';
 
 
 const loadArticles = (articlesList, articles) => {
@@ -11,6 +11,9 @@ const loadArticles = (articlesList, articles) => {
         } else {
             articlesList.map((article) => {
                 appendComponent(updatedArticles, newArticle(article));
+
+                const likeButton = document.getElementById('like-button');
+                setInitialLikeValue(likeButton, isLiked(article.id));
             });
         }
     } catch (error) {

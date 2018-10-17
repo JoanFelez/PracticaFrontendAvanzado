@@ -9,12 +9,11 @@ export const newArticle = ({id, title, image, description, author, published, co
             <p class="article-description">${description}</p>
             <a class="author-name" href="#">${author.name}</a>
             <div class="author-info">
-                <a class="author-name" href="#">${author.name}</a>
                 <div class="author-image"><img src="${author.photo}" alt="Autor Photo">Author Photo</div>
                 <p class="author-desc">${author.desc}</p>
             </div>
             <div class="time-comments">
-                <time class="publish-time">Published on: ${published}</time>
+                <time class="publish-time">Published: ${published}</time>
                 <i class="far fa-comment-alt comment-icon"></i>
                 <p class="comment-count">${comments}</p>
                 <button id="like-button" class="like-button"><i class="like-icon far fa-heart"></i></button>
