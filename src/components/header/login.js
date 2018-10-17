@@ -7,10 +7,10 @@ export const loginMenu = () => {
     loginButton.addEventListener('click', function(evt) {
         evt.preventDefault();
         loginContainer.classList.remove('inactive');
+        loginContainer.classList.remove('initial');
     });
 
     document.addEventListener('click', function(evt) {
-        evt.preventDefault();
         const formElements = ['login-form', 'login-button', 'state-button', 'form-link', 'pass-icon', 'pass-input', 'user-icon', 'user-input', 'form-title', 'login-header', 'state-span', 'state-spinner'];
         if (formElements.includes(evt.target.id) == false) {
             loginContainer.classList.add('inactive');

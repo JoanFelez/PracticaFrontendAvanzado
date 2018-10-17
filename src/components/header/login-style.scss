@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+.login-form.initial {
+  position: absolute;
+  top: -100%;
+}
+
 .login-form.inactive {
     transform: translateY(-800px);
 }

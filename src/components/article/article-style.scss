@@ -75,12 +75,12 @@ img {
 }
 
 .publish-time {
-    width: 45%;
+    width: 40%;
     max-width: 100%;
 }
 
 .comment-count {
-    width: 45%;
+    width: 20%;
     max-width: 100%;
 
 }
@@ -91,9 +91,72 @@ img {
     text-align: center;
 }
 
+.like-button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    width: 10%;
+    max-width: 100%;
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+}
+
+.like-icon {
+    color: red;
+    font-size: $font-size-xxl;
+}
+
+.top-button {
+    position: fixed;
+    display: none;
+    left: 90%;
+    top: 80%;
+    border: 1px $primary-color solid;
+    margin: 0;
+    background-color: $white;
+    opacity: 1;
+    text-decoration: none;
+    line-height: 1;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    border-radius: 100%;
+    z-index: 1;
+    &:focus {
+        outline: none;
+    }
+}
+
+.fa-arrow-alt-circle-up {
+    text-align: center;
+    color: $primary-color;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: $font-size-xxl;
+}
+
   @include for-tablet-landscape {
     .article-list {
         margin: 200px 20px 0px 20px;
     }
 
   }
+
+  @include for-desktop {
+    .top-button {
+        opacity: 0.25;
+    }
+
+    .top-button:hover {
+        opacity: 1;
+        background-color: $primary-color;
+        &>i{
+            color: $white;
+        }
+    }
+}

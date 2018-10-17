@@ -33,7 +33,6 @@ export const generateArticles = () =>{
 
 export const printArticle = (article) =>{
     const articleContainer = document.getElementById('article');
-
     articleContainer.innerHTML = '';
     loadArticles([article], articleContainer);
 

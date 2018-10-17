@@ -9,7 +9,6 @@ export const menuButton = () => {
     });
 
     document.addEventListener('click', function(evt) {
-        evt.preventDefault();
         if (evt.toElement.localName != 'span' && evt.toElement.id != 'menubtn') {
             menuButton.classList.remove('menu-btn_active');
             menu.classList.remove('menu_active');
