@@ -131,5 +131,14 @@
             "published": "25-10-2018",
             "comments": "10000"
         }
+    ],
+    "comments": [
+        {
+            "id":1,
+            "name":"John",
+            "lastName": "Snow",
+            "comment": "Winter is comming"
+        }
     ]
+
 }
