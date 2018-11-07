@@ -12,6 +12,7 @@ body {
     margin-bottom: 50px;
     background-color: $white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    width: 80%;
 }
 
 .article-info {
@@ -26,11 +27,12 @@ body {
 }
 
 .article-list {
-    margin: 20px 20px 0 20px;
+    margin: 150px 20px 0 20px;
     padding-bottom: 60px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
+    align-items: center;
 }
 
 .article-description {
@@ -159,18 +161,22 @@ a {
 }
 
 @include for-tablet-portrait {
+    .article-container {
+        width: 70%;
+    }
+
     .time-comments {
         height: 10px;
-        width: 500px;
+        max-width: 100%;
     }
 
     .publish-time {
-        width: 35%;
+        width: 45%;
         max-width: 100%;
     }
 
     .comment-count {
-        width: 35%;
+        width: 25%;
         max-width: 100%;
 
     }
@@ -183,6 +189,10 @@ a {
 }
 
 @include for-tablet-landscape {
+    .article-container {
+        width: 50%;
+    }
+
     .article-list {
         margin: 220px 20px 0px 20px;
     }
@@ -199,9 +209,5 @@ a {
 
     .top-button:hover {
         opacity: 1;
-        background-color: $primary-color;
-        &>i{
-            color: $white;
-        }
     }
 }

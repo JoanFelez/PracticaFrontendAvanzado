@@ -19,7 +19,7 @@ export const newArticle = ({id, title, image, description, author, published, co
                 <button id="like-button" class="like-button"><i class="like-icon far fa-heart"></i></button>
             </div>
         </div>
-        <div class="image-container"><img src="${image}" alt="Image or Video"></div>
+        <div class="image-container"><a class="image-link" id="image-link" href="/article/?id=${id}"><img src="${image}" alt="Image or Video"></a></div>
         `;
 
     return article;
